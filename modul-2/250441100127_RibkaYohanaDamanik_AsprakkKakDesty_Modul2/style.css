@@ -1,0 +1,94 @@
+/* Body */
+body {
+  font-family: 'serif'
+  margin: 0;
+  padding: 0;
+  background: #F7F4E9;
+  color: #3D1F0A;
+  line-height: 2.3;
+}
+
+/* Header */
+header {
+  background-color: #3D1F0A;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Section Produk */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 28px;
+  color: #3D1F0A;
+  margin-bottom: 60px;
+}
+
+/* List produk */
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+/* Card Produk */
+.product-card {
+  background-color: white;
+  border: 1px solid #C8813A;
+  border-radius: 8px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  font-size: 20px;
+  color: #3D1F0A;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: #C8813A;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.product-card a {
+  display: inline-block;
+  background-color: #3D1F0A;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* .product-card a:hover {
+  background-color: #C8813A;
+} */
+
+/* Footer */
+footer {
+  background-color: #3D1F0A;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
